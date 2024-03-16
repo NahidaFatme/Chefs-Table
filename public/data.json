@@ -1,0 +1,115 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Spaghetti Carbonara",
+      "recipe_image": "https://i.ibb.co/HPZx3hh/1.jpg",
+      "short_description": "Classic Italian pasta dish with eggs, cheese, pancetta, and black pepper.",
+      "ingredients": [
+        "400g spaghetti",
+        "150g pancetta",
+        "3 large eggs",
+        "50g grated pecorino cheese",
+        "50g grated parmesan cheese",
+        "Freshly ground black pepper"
+      ],
+      "preparing_time": 20,
+      "calories": 450
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Chicken Curry",
+      "recipe_image": "https://i.ibb.co/B6TwyW1/2.jpg",
+      "short_description": "A flavorful Indian curry dish made with tender chicken pieces and aromatic spices.",
+      "ingredients": [
+        "500g chicken thighs",
+        "2 onions",
+        "3 tomatoes",
+        "4 cloves garlic",
+        "1-inch ginger",
+        "2 green chilies",
+        "Salt to taste"
+      ],
+      "preparing_time": 40,
+      "calories": 380
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Caprese Salad",
+      "recipe_image": "https://i.ibb.co/D1DGRpp/3.jpg",
+      "short_description": "Simple and refreshing Italian salad made with fresh tomatoes, mozzarella cheese, basil, and olive oil.",
+      "ingredients": [
+        "2 large tomatoes",
+        "200g fresh mozzarella cheese",
+        "Handful of fresh basil leaves",
+        "2 tbsp extra virgin olive oil",
+        "Balsamic vinegar (optional)",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": 15,
+      "calories": 250
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Vegetable Stir-Fry",
+      "recipe_image": "https://i.ibb.co/51vdRz2/4.jpg",
+      "short_description": "Healthy and colorful stir-fried vegetables with a savory sauce, perfect for a quick and nutritious meal.",
+      "ingredients": [
+        "1 red bell pepper",
+        "1 yellow bell pepper",
+        "1 green bell pepper",
+        "1 carrot",
+        "100g snap peas",
+        "1 broccoli crown",
+        "2 cloves garlic",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp cornstarch",
+        "1 tsp ginger powder",
+        "1/2 tsp red pepper flakes",
+        "Cooked rice or noodles for serving"
+      ],
+      "preparing_time": 25,
+      "calories": 200
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Chocolate Chip Cookies",
+      "recipe_image": "https://i.ibb.co/RNTTWXV/5.jpg",
+      "short_description": "Classic homemade cookies loaded with chocolate chips, buttery and chewy with a hint of vanilla.",
+      "ingredients": [
+        "2 1/4 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1/2 tsp salt",
+        "1 cup unsalted butter",
+        "3/4 cup granulated sugar",
+        "3/4 cup packed brown sugar",
+        "1 tsp vanilla extract",
+        "2 large eggs",
+        "2 cups semi-sweet chocolate chips"
+      ],
+      "preparing_time": 15,
+      "calories": 150
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Greek Salad",
+      "recipe_image": "https://i.ibb.co/QdqsJY7/6.jpg",
+      "short_description": "Refreshing salad with crisp vegetables, feta cheese, olives, and a tangy vinaigrette dressing.",
+      "ingredients": [
+        "2 large cucumbers",
+        "4 tomatoes",
+        "1 red onion",
+        "1 green bell pepper",
+        "1/2 cup kalamata olives",
+        "200g feta cheese",
+        "Handful of fresh parsley",
+        "3 tbsp extra virgin olive oil",
+        "2 tbsp red wine vinegar",
+        "1 tsp dried oregano",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": 20,
+      "calories": 300
+    }
+  ]
+  

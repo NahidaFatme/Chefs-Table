@@ -1,10 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faUser, faSearch } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
  return(
-    <div className="container mx-auto py-5 lg:py-12 px-5 lg:px-32">
+    <div className="">
         {/* Navbar */}
         <div className="navbar bg-base-100 flex justify-between align-center">
             <div className="navbar-start">
@@ -30,8 +30,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="flex-none gap-2 navbar-end">
-                <div className="form-control">
-                <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto rounded-full bg-[#150B2B0D]" />
+                <div className="relative">
+                    <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto pl-10 rounded-full bg-[#150B2B0D]" />
+                    <FontAwesomeIcon icon={faSearch} className="absolute left-4 bottom-4 text-gray-400" />
                 </div>
                 <div className="dropdown dropdown-end">
                 <div  className="btn btn-ghost btn-circle bg-[#0BE58A]">
@@ -41,7 +42,6 @@ const Navbar = () => {
             </div>
         </div>
         {/*Banner  */}
-        {/* <a href="https://ibb.co/6F8gz3s"><img src="https://i.ibb.co/hVcDbP8/banner.png" alt="banner" border="0"></a> */}
         <div class="py-5 lg:py-12">
             <div class="w-full h-full lg:h-[550px] bg-black rounded-3xl bg-[url('https://i.ibb.co/hVcDbP8/banner.png')] bg-cover bg-no-repeat bg-center">
                 <div class="flex flex-col lg:flex-row gap-4 p-6 lg:p-32 justify-center">
