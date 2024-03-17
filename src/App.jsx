@@ -20,6 +20,10 @@ function App() {
     setCooks(newCooks);
   }
 
+  const handleRemoveCooks = recipe_id =>{
+    const remainingCooks = cooks.filter(cook =>cook.recipe_id !== recipe_id);
+    setCooks(remainingCooks);
+  }
   return (
     <>
       <div className='container mx-auto py-5 lg:py-12 px-5 lg:px-32'>
@@ -27,7 +31,7 @@ function App() {
         <div className='flex gap-4'>
         <Dishes handleWantToCook={handleWantToCook}></Dishes>
         <Dish></Dish>
-        <Sidebar cooks={cooks}></Sidebar>
+        <Sidebar cooks={cooks} handleRemoveCooks={handleRemoveCooks}></Sidebar>
         <Cook></Cook>
         <Prepares></Prepares>
         <Prepare></Prepare>
