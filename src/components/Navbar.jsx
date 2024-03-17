@@ -46,11 +46,11 @@ const Navbar = () => {
             <div class="w-full h-full lg:h-[550px] bg-black rounded-3xl bg-[url('https://i.ibb.co/hVcDbP8/banner.png')] bg-cover bg-no-repeat bg-center">
                 <div class="flex flex-col lg:flex-row gap-4 p-6 lg:p-32 justify-center">
                     <div class="text-center w-9/12">
-                        <h2 class="text-2xl lg:text-5xl text-white font-bold pb-6 leading-[80px]">Discover an exceptional cooking <br /> class tailored for you!</h2>
+                        <h2 class="text-2xl lg:text-5xl text-white font-bold pb-6">Discover an exceptional cooking <br /> class tailored for you!</h2>
                         <p class="text-lg text-white font-normal pb-4 lg:pb-8 custom-line-height">Mix flour, eggs, and milk in a bowl to create a pancake batter. Heat a non-stick pan, pour the batter, cook until golden, then flip to cook the other side.</p>
                         <div className="flex justify-center items-center gap-6 rounded-full">
                             <button class=" bg-[#0BE58A] text-black  py-5 px-8 font-bold rounded-full">Explore now</button>
-                            <button class="bg-transparent border-2 border-white text-white py-5 px-8 font-bold rounded-full">Our Feedback</button>
+                            <button class="bg-transparent border-2 border-white text-white py-2 lg:py-5 px-4 lg:px-8 font-bold rounded-full">Our Feedback</button>
                         </div>
                     </div>
                 </div>

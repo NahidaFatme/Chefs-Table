@@ -16,7 +16,7 @@ const Sidebar =({cooks, handleRemoveCooks}) =>{
         
     }
     return(
-        <div className="border-2 w-2/5 border-slate-200 p-6 rounded-2xl text-center">
+        <div className="border-2 w-full lg:w-2/5 border-slate-200 p-6 rounded-2xl text-center">
             <h1 className="font-bold text-2xl pb-4">Want To Cook : {cooks.length}</h1>
             <hr />
             <table className="table table-fixed text-base font-normal text-[#282828B3]">

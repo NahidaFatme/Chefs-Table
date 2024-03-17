@@ -13,13 +13,13 @@ const Cook =({cook, handlePreparing, handleRemoveCooks}) =>{
             <th className="">{recipe_name}</th>
             <th className="">{preparing_time} minutes</th>
             <th className="">{calories} calories</th>   
-            <th>
+            <th className="">
                 <button 
                 onClick={() => {
                     handleRemoveCooks(recipe_id);
                     handlePreparing(cook, preparing_time, calories, recipe_id);
                 }}
-                className="rounded-full bg-[#0BE58A] p-3 font-bold">
+                className="rounded-full bg-[#0BE58A] p-3 font-bold hover:bg-gray-200">
                     preparing
                 </button>
                 
